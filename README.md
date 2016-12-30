@@ -1,6 +1,6 @@
 <div class="container">
         <div class="jumbotron">
-        <h1>Test Cron sous <span class="zf-green">Symfony 2</span></h1>
+        <h1>Test Cron sous <span class="zf-green">Symfony 3</span></h1>
         </div>
 
         <div class="row">
