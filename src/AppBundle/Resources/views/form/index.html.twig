@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1>Form Cron</h1>
+ <div class="col-md-4"> 
+  {% if form is defined %}   
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+{{ form_end(form) }}
+{% else %}
+ le cron n'est pas encore generé<br/><br/>
+ Vieulliez Lire la documentation pour executer le cron
+{% endif %}
+
+ </div>
+{% endblock %}

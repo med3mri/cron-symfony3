@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="jumbotron">
+<h1>Test Cron sous <span class="zf-green">Symfony 3</span></h1>
+</div>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Documentation</h3>
+            </div>
+            <div class="panel-body">
+                <p>Cette Application un simple test qui permet de creer un cron sous linux ainsi qu'un formulaire pour afficher le contenu de fichier generé,pour cela il faut suivie ces points suivantes:</p>
+                <p>1 - Veulliez Changer le path du fichier timing.txt dans le fichier <label class='zf-green'>app/config/parameters.yml</label> sur la ligne pathfile </p>
+                <p>2 - Veulliez Donner le droit d'acceés et d'ecriture au fichier timing.txt </p>
+                <p>3 - j'ai creé une commande console pour generer un cron , positioner sur le dossier projet puis tapez cette commande sur le terminal linux :<label class='zf-green'>php bin/console crontabcreate</label> </p>
+                <p>4 - pour afficher le formulaire cliquer sur le menu en haut Form Cron </p>                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
